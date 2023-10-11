@@ -1,0 +1,16 @@
+header{
+    background-color: blueviolet;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+header nav ul{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
