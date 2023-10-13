@@ -1,16 +1,49 @@
-header{
-    background-color: blueviolet;
+html, body {
+    margin: 0;
+    background-color: rgb(13, 2, 38);
 }
+
+
+.logo{
+    color: black;
+}
+
+
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #239FA7;
+    padding: 20px 10px;
+    margin: 0;
     
 }
 
-header nav ul{
-    display: flex;
-    gap: 0.5rem;
-    list-style: none;
+main h1{
+    color:antiquewhite
+
+}
+
+.fa-solid {
+    font-size: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+article{
+    min-width: 250;
+    max-width: 500px;
+    width:100%
+    margin: 1rem auto;   
+    
+}
+
+article img{    
+    width: 100%;
+    background-color:#0000;
+    margin: 0.5rem auto;
 }
