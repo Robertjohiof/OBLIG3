@@ -1,13 +1,8 @@
 html, body {
     margin: 0;
     background-color: rgb(13, 2, 38);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-.logo{
-    color: black;
-}
-
 
 
 header{
@@ -20,24 +15,36 @@ header{
     
 }
 
-main h1{
-    color:antiquewhite
-
+.logo{
+    color: black;
 }
 
 .fa-solid {
     font-size: 50px;
 }
 
-h1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+main h1{
+    color:antiquewhite;
+    text-align:center;
+}
+
+main h2{
+    color:antiquewhite;
+    text-align:center;
+    font-size: 16px;
+}
+
+main{
+    display:flex;
+    flex-flow: column wrap;
+
+}
+
 
 article{
     min-width: 250;
     max-width: 500px;
-    width:100%
+    width:100%;
     margin: 1rem auto;   
     
 }
