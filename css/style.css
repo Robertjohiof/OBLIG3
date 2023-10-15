@@ -78,6 +78,19 @@ article img{
     margin: 0.5rem auto;
 }
 
+h3{
+    color:antiquewhite;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    width: 100%;
+}
+
+article p{
+    color: antiquewhite;
+}
+
 footer{
     background-color:#239FA7;
     padding: 1rem 0;
