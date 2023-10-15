@@ -49,6 +49,20 @@ article{
     
 }
 
+article a{
+    display: flex;
+    justify-content:space-evenly
+}
+
+.bilde_links{
+    background-color: #424c52;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    
+
+}
+
 article img{    
     width: 100%;
     background-color:#0000;
