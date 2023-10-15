@@ -28,25 +28,32 @@ main h1{
     text-align:center;
 }
 
-main h2{
-    color:antiquewhite;
-    text-align:center;
-    font-size: 16px;
-}
 
 main{
     display:flex;
     flex-flow: column wrap;
-
+    
 }
 
 
 article{
-    min-width: 250;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
     max-width: 500px;
     width:100%;
     margin: 1rem auto;   
     
+}
+
+main h2{
+    color:antiquewhite;
+    text-align:center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
 }
 
 article a{
@@ -56,9 +63,11 @@ article a{
 
 .bilde_links{
     background-color: #424c52;
-    color: #fff;
+    color: antiquewhite;
+    font-size: 13px;
     text-decoration: none;
     padding: 1rem;
+    margin: 0 2rem 0.5rem 2rem;
     
 
 }
@@ -67,4 +76,29 @@ article img{
     width: 100%;
     background-color:#0000;
     margin: 0.5rem auto;
+}
+
+footer{
+    background-color:#239FA7;
+    padding: 1rem 0;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap; 
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.f_section{
+    
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+@media only screen and(min-width:760px){
+
+
 }
