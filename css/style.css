@@ -23,29 +23,29 @@ header{
     font-size: 50px;
 }
 
-ul.breadcrumb {
+ul.b_smule_sti {
     padding: 10px 16px 0px;
     list-style: none;
     margin: 0;
 }
 
-ul.breadcrumb li {
+ul.b_smule_sti li {
     display: inline;
     font-size: 12px;
 }
 
-ul.breadcrumb li+li:before {
+ul.b_smule_sti li+li:before {
     padding: 8px;
     color: rgb(103, 117, 118);
     content: "/\00a0";
 }
 
-ul.breadcrumb li a {
+ul.b_smule_sti li a {
     color: #0275d8;
     text-decoration: none;
 }
 
-ul.breadcrumb li a:hover {
+ul.b_smule_sti li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
