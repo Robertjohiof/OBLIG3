@@ -23,6 +23,8 @@ header{
     font-size: 50px;
 }
 
+
+
 ul.b_smule_sti {
     padding: 10px 16px 0px;
     list-style: none;
@@ -49,6 +51,47 @@ ul.b_smule_sti li a:hover {
     color: #01447e;
     text-decoration: underline;
 }
+
+.handle_firkant{
+    background-color: #585858;
+    margin: 2rem 0 0 0;    
+}
+
+.handle_firkant p{
+    color: antiquewhite;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    
+}
+
+.handlepris{
+    background-color: black;
+    width: 50px;
+    height: 95px;
+    
+}
+
+.handlepris p{
+    margin: 0;
+    font-size: 13px;
+}
+
+.fa-regular, .fa-brands, .fa-solid{
+    font-size: 30px;
+}
+
+.handle-fa{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.trio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 90px;
+}
+
 
 main h1{
     color:antiquewhite;
