@@ -96,17 +96,21 @@ ul.b_smule_sti li a:hover {
 }
 
 
+
+
 .trio{  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 90px;
+    column-gap: 70px;
     background-color: #474747;
+    padding: 0.4rem 0.3rem;
 }
 
 .handle_firkant article{
     text-align: center;
     width: 100%;
     background-color:#474747
+    margin: 0.5rem;
 }
 
 
@@ -161,6 +165,21 @@ article a{
 
 }
 
+.buy{
+    background-color:chartreuse;
+    color:antiquewhite;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin: 2rem 2rem 2rem 7rem;
+}
+
+.message{
+    color: antiquewhite;
+    font-size: 40px;
+    margin: 0 0 0 3rem;
+}
+
 article img{    
     width: 100%;
     background-color:#0000;
@@ -180,21 +199,56 @@ article p{
     color: antiquewhite;
 }
 
+
 .handlegps{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 400px;
 }
 
-footer{
-    background-color:#239FA7;
-    padding: 1rem 0;
+.lignende{
+    text-align: center;
+    color: antiquewhite;
+    font-size: smaller;
+    background-color: #474747;
+    margin: 0 0 3rem 0;
 }
 
-footer ul{
+.lignende_bilder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding: 0.4rem 0.3rem;
+}
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background-color: #239FA7;
+    color:antiquewhite;
     display: flex;
-    flex-wrap: wrap; 
-    list-style-type: none;
-    gap: 1rem;
+}
+
+.footer section{
+    text-align: center;
+}
+
+.frad-2{
+    flex-grow: 2;
+}
+
+.footer section h4{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.frad-1 a, .frad-3 a{
+    display: block;
+    text-decoration: none;
+    color: antiquewhite;
+    margin-bottom: 5px;
 }
 
 .f_section{
