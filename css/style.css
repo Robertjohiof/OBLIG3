@@ -15,6 +15,15 @@ header{
     
 }
 
+.full-width {
+    width: 100%;
+}
+
+.document-space {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .logo{
     color: black;
 }
@@ -80,16 +89,24 @@ ul.b_smule_sti li a:hover {
     font-size: 30px;
 }
 
+
 .handle-fa{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 
-.trio{
+.trio{  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 90px;
+    background-color: #474747;
+}
+
+.handle_firkant article{
+    text-align: center;
+    width: 100%;
+    background-color:#474747
 }
 
 
