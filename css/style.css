@@ -251,6 +251,12 @@ article p{
     display: none;
 }
 
+.handle_total{
+    display: none;
+    color: antiquewhite;
+    text-align: center;    
+}
+
 .footer{
     margin-top: 100px;
     width: 100%;
@@ -345,11 +351,24 @@ form input{
 
     .medlem{
         display: block;
-        margin: 2rem 0 5rem 6rem;
+        margin: 2rem 0 5rem 8rem;
+    }
+
+    .h_t_overskrift{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    .handle_total{
+        display: block;
+        color: antiquewhite;
+        text-align: center;   
+        margin: 0 7rem 3rem 0;
+         
     }
 
     .buy_and_chat{
-        margin: 3rem 0 0 0;
+        margin: 5rem 0 0 2rem;
     }
 
 
