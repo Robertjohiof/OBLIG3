@@ -235,8 +235,8 @@ article p{
     text-align: center;
 }
 
-.frad-2{
-    flex-grow: 0.4;
+.frad-2{    
+    flex-grow: 1;
 }
 
 .footer section h4{
@@ -263,15 +263,14 @@ form input{
     border: none;
 }
 
-.f_section{
-    
-    color: antiquewhite;
-    text-decoration: none;
-    font-size: 12px;
-    
-}
 
-@media only screen and(min-width:760px){
+
+@media screen and (min-width: 700px) {
+    .desktop_index{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
 
 
 }
