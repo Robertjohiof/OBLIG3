@@ -41,7 +41,7 @@ header{
 }
 
 
-
+/* Brødsmulesti - (ul.b_smule_sti)  : https://www.w3schools.com/howto/howto_css_breadcrumbs.asp */
 ul.b_smule_sti {
     padding: 10px 16px 0px;
     list-style: none;
@@ -257,6 +257,7 @@ article p{
     text-align: center;    
 }
 
+/* Footer css er også hentet fra: https://www.youtube.com/watch?v=lLdzlLL33G8&ab_channel=GreatStack */
 .footer{
     margin-top: 100px;
     width: 100%;
